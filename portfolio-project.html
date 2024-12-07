@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="portfolio-css.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Laurine GARREAU</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#projets">Mes Projets</a></li>
+                <li><a href="#competences">Mes Compétences</a></li>
+                <li><a href="#contact">Contactez moi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="accueil">
+            <div class="intro">
+                <h1>Bonjour, je suis Laurine GARREAU</h1>
+                <p>Développeuse Web | Designeuse | Créative</p>
+            </div>
+        </section>
+
+        <section id="projets">
+            <h2>Mes Projets</h2>
+            <div class="grid-projets">
+                <div class="projet">
+                    <img src="projet1.jpg" alt="Projet 1">
+                    <h3>Nom du Projet 1</h3>
+                    <p>Description courte du projet</p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                <div class="projet">
+                    <img src="projet2.jpg" alt="Projet 2">
+                    <h3>Nom du Projet 2</h3>
+                    <p>Description courte du projet</p>
+                    <a href="#" class="btn">Voir plus</a>
+                </div>
+                <!-- Ajoutez plus de projets ici -->
+            </div>
+        </section>
+
+        <section id="competences">
+            <h2>Compétences</h2>
+            <div class="skills-container">
+                <div class="skill">HTML5</div>
+                <div class="skill">CSS3</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React</div>
+                <!-- Ajoutez vos compétences -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>© 2024 Votre Nom. Tous droits réservés.</p>
+    </footer>
+
+    <script src="portfolio-js.js"></script>
+</body>
+</html>
